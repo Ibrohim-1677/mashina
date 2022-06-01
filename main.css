@@ -741,6 +741,12 @@ body {
     background-color: #FDE428;
     margin-left: -5px;
 }
+.link-style{
+    margin-right: 20px;
+}
+.header-hero{
+    margin-left: 10px;
+}
 .button-img{
     margin-bottom: -5px;
 }
@@ -765,7 +771,7 @@ body {
 .footer-food-img{
     margin-left: 20px;
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) , (min-width: 320px){
     .header-hero{
         width: 425px;
     }
@@ -821,7 +827,8 @@ body {
     .reference {
         width: 425px;
         height: 764px;
-        background-image: url(./img/Recponsiwe2.png);    
+        background-image: url(./img/Recponsiwe2.png);  
+        background-size: cover;  
     }
     .reference-list{
         display:flow-root;
@@ -866,6 +873,7 @@ body {
         width: 425px;
         height: 1690px;
         background-image: url(./img/responsiv3.png);
+        background-size: cover;
     }
     .selection-word{
         font-weight: 700;
