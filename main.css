@@ -741,9 +741,7 @@ body {
     background-color: #FDE428;
     margin-left: -5px;
 }
-.link-style{
-    margin-right: 20px;
-}
+
 .header-hero{
     margin-left: 10px;
 }
@@ -771,7 +769,7 @@ body {
 .footer-food-img{
     margin-left: 20px;
 }
-@media only screen and (max-width: 425px) , (min-width: 320px){
+@media only screen and (max-width: 425px){
     .header-hero{
         width: 425px;
     }
@@ -784,6 +782,9 @@ body {
     }
     .list-df,.list-position{
         display: none;
+    }
+    .link-style{
+    margin-right: 20px;
     }
     .buy{
         margin-left: auto;
